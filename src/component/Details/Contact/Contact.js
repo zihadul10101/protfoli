@@ -11,7 +11,7 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('emails', 'template_wjk0e1k', e.target, 'user_eTZ9o9OeWSpWl3iAgqnGp')
+        emailjs.sendForm('gmail@1', 'template_wjk0e1k', e.target, 'user_eTZ9o9OeWSpWl3iAgqnGp')
           .then((result) => {
               console.log(result.text);
           }, (error) => {

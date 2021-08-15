@@ -8,64 +8,64 @@ const Footer = () => {
 
      <section>
             {/* Footer */}
-        <footer class="bg-dark text-center text-white">
+        <footer className="bg-dark text-center text-white">
           {/*  Grid container */}
-          <div class="container p-4">
+          <div className="container p-4">
             {/* Section: Social media */}
-            <section class="mb-4">
+            <section className="mb-4">
               {/*  Facebook */}
-              <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/zihadul.islam.7140" role="button"
+              <a className="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/zihadul.islam.7140" role="button"
                 ><FontAwesomeIcon icon={faFacebook} />
               </a>
         
               {/*  Twitter */}
-              <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Zihadul71118881" role="button"
+              <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Zihadul71118881" role="button"
                 ><FontAwesomeIcon icon={faTwitch} />
               </a>
         
               {/* <!-- Instagram --> */}
-              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/zihadul18/" role="button"
+              <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/zihadul18/" role="button"
                 ><FontAwesomeIcon icon={faInstagram} />
               </a>
         
               {/* <!-- Linkedin --> */}
-              <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/zihadul-islam-27206a216/" role="button">
+              <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/zihadul-islam-27206a216/" role="button">
               <FontAwesomeIcon icon={faLinkedin} /></a>
         
               {/* <!-- Github --> */}
-              <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/zihadul10101" role="button"
+              <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/zihadul10101" role="button"
                 ><FontAwesomeIcon icon={faGithub} />
               </a>
             </section>
             {/* <!-- Section: Social media -->
         
             <!-- Section: Form --> */}
-            <section class="">
+            <section className="">
               <form action="">
                 {/* <!--Grid row--> */}
-                <div class="row d-flex justify-content-center">
+                <div className="row d-flex justify-content-center">
                   {/* <!--Grid column--> */}
-                  <div class="col-auto">
-                    <p class="pt-2">
+                  <div className="col-auto">
+                    <p className="pt-2">
                       <strong>Don't miss to contact me </strong>
                     </p>
                   </div>
                   {/* <!--Grid column--> */}
         
                   {/* Grid column */}
-                  <div class="col-md-5 col-12">
+                  <div className="col-md-5 col-12">
                     {/* <!-- Email input --> */}
-                    <div class="form-outline form-white mb-4">
-                      <input type="email" id="form5Example2" class="form-control" />
-                      <label class="form-label" for="form5Example2">Email address</label>
+                    <div className="form-outline form-white mb-4">
+                      <input type="email" id="form5Example2" className="form-control" />
+                      <label className="form-label" for="form5Example2">Email address</label>
                     </div>
                   </div>
                   {/* <!--Grid column-->
         
                   <!--Grid column--> */}
-                  <div class="col-auto">
+                  <div className="col-auto">
                     {/* <!-- Submit button --> */}
-                    <button type="submit" class="btn btn-outline-light mb-4">
+                    <button type="submit" className="btn btn-outline-light mb-4">
                       Subscribe
                     </button>
                   </div>
@@ -77,7 +77,7 @@ const Footer = () => {
             {/* <!-- Section: Form --> */}
         
             {/* <!-- Section: Text --> */}
-            <section class="mb-4">
+            <section className="mb-4">
               <p>
               I'd Love to hear from you . Important Link!
               </p>
@@ -85,46 +85,46 @@ const Footer = () => {
             {/* <!-- Section: Text --> */}
 {/*         
             <!-- Section: Links --> */}
-            <section class="">
+            <section className="justify-content-center">
               {/* <!--Grid row--> */}
-              <div class="row">
+              <div className="row">
                 {/* <!--Grid column--> */}
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">Links</h5>
+                <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 className="text-uppercase">Links</h5>
         
-                  <ul class="list-unstyled mb-0">
+                  <ul className="list-unstyled mb-0">
                     <li>
-                      <a href="/contact" class="text-white">Contact</a>
+                      <a href="/contact" className="text-white">Contact</a>
                     </li>
                     <li>
-                      <a href="/about" class="text-white">About</a>
+                      <a href="/about" className="text-white">About</a>
                     </li>
                     <li>
-                      <a href="/allWork" class="text-white">AllWork</a>
+                      <a href="/allWork" className="text-white">AllWork</a>
                     </li>
                     <li>
-                      <a href="/allArticle" class="text-white">AllArticle</a>
+                      <a href="/allArticle" className="text-white">AllArticle</a>
                     </li>
                   </ul>
                 </div>
                 {/* <!--Grid column--> */}
         
                 {/* <!--Grid column--> */}
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">Links</h5>
+                <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 className="text-uppercase">Links</h5>
         
-                  <ul class="list-unstyled mb-0">
+                  <ul className="list-unstyled mb-0">
                     <li>
-                      <a href="/home" class="text-white">Home</a>
+                      <a href="/home" className="text-white">Home</a>
                     </li>
                     <li>
-                      <a href="/home" class="text-white">Header</a>
+                      <a href="/home" className="text-white">Header</a>
                     </li>
                     <li>
-                      <a href="/allWork" class="text-white">Project</a>
+                      <a href="/allWork" className="text-white">Project</a>
                     </li>
                     <li>
-                      <a href="/allArticle" class="text-white">Article</a>
+                      <a href="/allArticle" className="text-white">Article</a>
                     </li>
                   </ul>
                 </div>
@@ -140,9 +140,9 @@ const Footer = () => {
           {/* <!-- Grid container --> */}
         
           {/* <!-- Copyright --> */}
-          <div class="text-center p-3" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
+          <div className="text-center p-3" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
             © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">Zihadul.com</a>
+            <a className="text-white" href="https://mdbootstrap.com/">Zihadul.com</a>
           </div>
           {/* <!-- Copyright --> */}
         </footer>

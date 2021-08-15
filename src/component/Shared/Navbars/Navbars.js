@@ -1,7 +1,8 @@
 import React from 'react';
 import './Navbars.css'
+import CV from '../../assets/images/Zihadul Islam Resume .pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDownload, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import navImg from '../../assets/images/nvi-emoji-bd.png'
@@ -32,7 +33,8 @@ const Navbars = () => {
           <Nav.Link href="https://www.instagram.com/zihadul18/"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
           <Nav.Link href="https://www.linkedin.com/in/zihadul-islam-27206a216/"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
           <Nav.Link href="https://github.com/zihadul10101"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
-          <Button href="../../assets/images/download.jfif" variant="outline-success" style={{ borderRadius: '10%' }}><FontAwesomeIcon icon={faDownload} /> Resume</Button>
+      <Button variant="outline-success" style={{ borderRadius: '10%' }}> <FontAwesomeIcon icon={ faDownload} />   <a href={CV}  >Resume</a></Button>
+      
         </Nav>
       </Navbar.Collapse>
 

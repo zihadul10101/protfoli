@@ -32,8 +32,8 @@ a {
 .hover:hover{
     background-color: gold;
     color: #000000;
-    width: 30px;
-    
+ 
+ 
 }
 .navbar .navbar-nav .nav-link:hover {
     background-color: gold;
