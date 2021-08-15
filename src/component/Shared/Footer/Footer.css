@@ -1,0 +1,16 @@
+.main-footer{
+    color:#ffff;
+    background-color: #212529;  
+}
+.importantLink a {
+    text-decoration: none;
+    padding: 20px 10px;
+  
+}
+
+.row {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2,1fr);
+ 
+}

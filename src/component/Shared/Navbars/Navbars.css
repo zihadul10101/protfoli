@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-item img {
+    max-height: 1.75rem;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+.navbar a {
+    text-align: center;
+    color:hsla(0,0%,100%,.6);
+}
+ navbar-link  ,a.navbar-item {
+    cursor: pointer;
+}
+.navbar-item, .navbar-link {
+    display: block;
+    line-height: 1.5;
+    padding: .5rem .75rem;
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+.link{
+    padding: 50px;
+}
+.hover:hover{
+    background-color: gold;
+    color: #000000;
+    width: 30px;
+    
+}
+.navbar .navbar-nav .nav-link:hover {
+    background-color: gold;
+    color: #000000;
+  }
