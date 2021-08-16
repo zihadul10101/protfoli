@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbars.css'
-import CV from '../../assets/images/Zihadul Islam Resume .pdf';
+import CV from '../../assets/images/Zihadul-Islam-Zihad Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
