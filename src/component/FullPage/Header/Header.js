@@ -13,11 +13,11 @@ const Header = () => {
             <div className="row d-flex">
 
                 <div className="col-md-8  justify-content-center pt-5">
-                    <h5 className="text-green ">Hello , I'm</h5>
-                    <h1 className="text-green ">Zihadul Islam</h1>
-                    <HeaderAnimation></HeaderAnimation>
+                    <h5 className="text-white ">Hello , I'm</h5>
+                    <h1 className="text-white ">Zihadul Islam</h1>
+                    <HeaderAnimation ></HeaderAnimation>
                   
-                    <p className="text-green ">"A self-motivated and enthusiastic web developer with a deep interest in JavaScript."</p>
+                    <p className="text-white ">"A self-motivated and enthusiastic web developer with a deep interest in JavaScript."</p>
 
                     <div className="btn pr-5 ">
 

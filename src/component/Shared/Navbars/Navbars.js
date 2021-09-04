@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbars.css'
-import CV from '../../assets/images/Zihadul Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
@@ -26,15 +25,12 @@ const Navbars = () => {
          <Link  className="ms-5 hover" to="/about">About</Link> 
          <Link  className="ms-5 hover" to="/allWork">Work</Link>
          <Link  className="ms-5 hover" to="/contacts">Contact</Link>
-         
-
         </Nav>
         <Nav>
           <Nav.Link href="https://www.instagram.com/zihadul18/"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/in/zihadul-islam-27206a216/"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/in/zihadul-islam10101/"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
           <Nav.Link href="https://github.com/zihadul10101"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
-      <Button variant="outline-success" style={{ borderRadius: '10%' }}> <FontAwesomeIcon icon={ faDownload} />   <a href={CV}  >Resume</a></Button>
-      
+      <Button variant="outline-success" style={{ borderRadius: '10%' }}> <FontAwesomeIcon icon={ faDownload} />   <a href="https://drive.google.com/file/d/14Mrur3WLENkagZ_UTAx-42iP_TDi1_6k/view?usp=sharing"  >Resume</a></Button>
         </Nav>
       </Navbar.Collapse>
 

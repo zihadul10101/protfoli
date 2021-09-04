@@ -26,7 +26,7 @@ const AllWork = () => {
                     </div>
                     <div className="d-flex">
                         <div className="link">
-                            <span>   <a href="https://github.com/Porgramming-Hero-web-course/full-stack-client-zihadul10101"><FontAwesomeIcon icon={faGithub} /></a></span>
+                            <span>   <a href="https://github.com/zihadul10101/web-book-shop-client"><FontAwesomeIcon icon={faGithub} /></a></span>
                             <span>     <a href="https://web-book-shop.web.app/"><FontAwesomeIcon icon={faExternalLinkAlt} /></a></span>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const AllWork = () => {
                     </div>
                     <div className="d-flex">
                         <div className="link">
-                            <span>   <a href="https://github.com/Porgramming-Hero-web-course/complete-website-client-zihadul10101"><FontAwesomeIcon icon={faGithub} /></a></span>
+                            <span>   <a href="https://github.com/zihadul10101/application-repaier-client"><FontAwesomeIcon icon={faGithub} /></a></span>
                             <span>     <a href="https://applicance-repair.web.app/"><FontAwesomeIcon icon={faExternalLinkAlt} /></a></span>
                         </div>
                     </div>
@@ -81,11 +81,6 @@ const AllWork = () => {
                 </div>
 
             </div>
-
-
-
-
-
 
             <div class="card" style={{ width: '18rem' }}>
                 <img class="card-img-top" src="https://i.ibb.co/CbjJHmG/jevelin.png" alt="Card image cap" />

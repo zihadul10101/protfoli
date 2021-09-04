@@ -3,18 +3,18 @@ import './About.css';
 const About = () => {
     return (
         <section className="aboutSection">
-             <h1>About Me</h1>
+             <h1 className="text-white">About Me</h1>
             <div className="row d-flex ">
                 <div className="col-md-6  justify-content-center ">
                         <img src="https://i.ibb.co/yV1wHPt/about-img.png" class="img-fluid"  style={{ marginBottom: '0px', borderRadius: '100%', height: '350px',width:'500px', alignItems: 'center' }} alt="" />
-                        <h2>
+                        <h2 className="text-white">
                             <small className="text">I'm</small> Zihadul Islam
                         </h2>
-                        <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. </p>
+                        <p className="text-white">A self-motivated and enthusiastic web developer with a deep interest in JavaScript. </p>
                     </div>
                     <div className="col-md-6  justify-content-end">
 
-                        <h4 className="page-title">
+                        <h4 className="page-title text-white">
                             My Skills Set
                         </h4>
                         <div className="technology">
@@ -28,7 +28,7 @@ const About = () => {
                             <span>Material UI</span>
                           
                         </div>
-                        <h4 className="page-title mt-5 mb-3">
+                        <h4 className="page-title text-white mt-5 mb-3">
                             I want to work with
                         </h4>
                         <div className="technology">
@@ -38,7 +38,7 @@ const About = () => {
                             <span>Mongoose</span>
                         </div>
 
-                        <h4 className="page-title mt-5 mb-3">
+                        <h4 className="page-title text-white mt-5 mb-3">
                             I want to work with
                         </h4>
                         <div className="technology">

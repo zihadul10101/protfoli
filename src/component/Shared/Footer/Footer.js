@@ -29,7 +29,7 @@ const Footer = () => {
               </a>
         
               {/* <!-- Linkedin --> */}
-              <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/zihadul-islam-27206a216/" role="button">
+              <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/zihadul-islam10101/" role="button">
               <FontAwesomeIcon icon={faLinkedin} /></a>
         
               {/* <!-- Github --> */}

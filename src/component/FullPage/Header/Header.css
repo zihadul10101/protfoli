@@ -8,8 +8,11 @@
     grid-gap: 10px;
     grid-template-rows: 3fr;
     justify-content: center;
-    background: linear-gradient(90deg, var(--c1, #dfae0c), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+    background: linear-gradient(90deg, var(--c1, #1a3653), var(--c2, #0c1a27) 51%, var(--c1, #1272d1)) var(--x, 0)/ 200%;
     box-shadow: 2px 2px 10px #246756;
+}
+.text-white {
+color: honeydew;
 }
 .rotate:hover {
 	transform: rotateY(360deg);

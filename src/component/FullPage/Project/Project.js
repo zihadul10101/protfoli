@@ -55,7 +55,7 @@ const Project = () => {
                         </div>
                         <div className="d-flex pr-25">
                             <div className="link">
-                                <span>   <a href="https://github.com/Porgramming-Hero-web-course/complete-website-client-zihadul10101"><FontAwesomeIcon icon={faGithub} /></a></span>
+                                <span>   <a href="https://github.com/zihadul10101/application-repaier-client"><FontAwesomeIcon icon={faGithub} /></a></span>
                                 <span>     <a href="https://applicance-repair.web.app/"><FontAwesomeIcon icon={faExternalLinkAlt} /></a></span>
                             </div>
                         </div>
